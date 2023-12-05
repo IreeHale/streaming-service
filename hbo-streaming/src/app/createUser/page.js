@@ -1,6 +1,6 @@
 import '../styles/create-user.scss'
 
-export default function Home() {
+export default function CreateUser() {
   return (
     <div>
       <div className="create-user">
