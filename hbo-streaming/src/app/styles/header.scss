@@ -1,5 +1,5 @@
 .top-header{
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0);
     box-sizing: border-box;
     color: white;
     display: flex;
@@ -21,10 +21,6 @@
         width: 129px;
         background-image: url('../../../public/hbo/logo.svg');
         transform: scale(.9);
-        background-color: red ;
-        border: red solid 1px;
-
-        cursor: pointer;
     }
     &__left-side{
         display: flex;
