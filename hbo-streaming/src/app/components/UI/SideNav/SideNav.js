@@ -4,7 +4,7 @@ const SideNav = (props) => {
     return (
         <div className="side-nav">
             <div className="side-nav__close-btn">
-                <i class="bi bi-x-lg"></i>
+                <i className="bi bi-x-lg"></i>
             </div>
             <ul className="side-nav__main">
                 <li>
