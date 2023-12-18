@@ -1,5 +1,7 @@
+import './JustAdded.scss';
 
-const ForYouList = (props) => {
+
+const  JustAdded= (props) => {
     const loopComp = (comp, digit) => {
         let thumbnails = [];
         for(let index = 1; index <= digit; index++){
@@ -10,14 +12,14 @@ const ForYouList = (props) => {
     }
 
     return (
-        <div className="foryou-list">
-            <h3 className="foryou-list__title">For You</h3>
-                <div className="foryou-list__thumbnails">
+        <div className="Just-added">
+            <h3 className="Just-added__title">For You</h3>
+                <div className="Just-added__thumbnails">
 
                     {loopComp(
-                        (<div className="foryou-list__thumbnail">
+                        (<div className="Just-added__thumbnail">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH9zozMJhrN_MYP9mwKIF6KMXFsUfAQB51rkITvwYjogAEDkBDxF-r_84SOuiFTZ7sdO8&usqp=CAU"/>
-                            <div className="foryou-list__top-player">
+                            <div className="Just-added__top-player">
                                 <i className="bi bi-play-fill"/>
                             </div>
                         </div>), 3
@@ -27,4 +29,4 @@ const ForYouList = (props) => {
     )
 }
 
-export default ForYouList;
+export default JustAdded;
